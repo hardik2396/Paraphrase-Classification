@@ -1,17 +1,25 @@
-# Paraphrase-Classificationz
+# Paraphrase-Classification
 
 Used Siamese network for parphrase classification.
-
-Siamese neural network is a class of neural network architectures that contain two or
-more identical subnetworks. identical here means they have the same configuration with
-the same parameters and weights. Parameter updating is mirrored across both subnetworks.Sharing weights across subnetworks means fewer parameters to train for,
-which in turn means less data required and less tendency to overfit.
 
 Used 100 dimension pre-trained GloVe word-vector provided by Stanford.As main
 building block of NN  used Bidirectional RNN with LSTM as memory unit since
 sequence length is 50 there might be possibility of longer dependencies.
 
 Used RMSprop as optimiser and default parameters as mention in keras
-documentation.RMSprop is good choice for training RNN.( source ) I have used callbacks
-in case of problem in power supply etc. Strategy for callback is validation accuracy
+documentation.RMSprop is good choice for training RNN.Strategy for callback is validation accuracy
 improvement.
+
+As metric for evaluation i use loss and accuracy. I got 0.18, 0.74 as loss and accuracy
+respectively on Test-set.
+
+
+# TO DO
+
+Use of TF-IDF in two ways.
+  1. Concatenated output of NN1 and TF-IDF(200 dim) vector and apply 128 dim
+  hidden layer and same goes for NN2 and finally apply softmax layer.
+  2. There might be possibility of Question having length higher than 50. To deal with
+  problem we use TF-IDF to collect most important 50 words than apply model.
+
+Hyperparameter Tuning  
