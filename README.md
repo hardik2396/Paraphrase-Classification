@@ -23,3 +23,9 @@ Use of TF-IDF in two ways.
   problem we use TF-IDF to collect most important 50 words than apply model.
 
 Hyperparameter Tuning  
+
+
+# Requierements 
+
+Keras,
+NLTK
