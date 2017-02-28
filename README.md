@@ -2,6 +2,8 @@
 
 Used Siamese network for parphrase classification.
 
+![myimage-alt-tag](https://www.researchgate.net/profile/Gregoire_Lefebvre/publication/260452382/figure/fig2/AS:297249520275457@1447881216257/Figure-2-A-Siamese-Neural-Network.png)
+
 Used 100 dimension pre-trained GloVe word-vector provided by Stanford.As main
 building block of NN  used Bidirectional RNN with LSTM as memory unit since
 sequence length is 50 there might be possibility of longer dependencies.
