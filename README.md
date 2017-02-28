@@ -1,6 +1,7 @@
 # Paraphrase-Classification
 
-Used Siamese network for parphrase classification.
+Used Siamese network for parphrase classification.[paper](http://www.mit.edu/~jonasm/info/MuellerThyagarajan_AAAI16.pdf)
+
 
 ![myimage-alt-tag](https://www.researchgate.net/profile/Gregoire_Lefebvre/publication/260452382/figure/fig2/AS:297249520275457@1447881216257/Figure-2-A-Siamese-Neural-Network.png)
 
