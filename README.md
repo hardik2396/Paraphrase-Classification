@@ -1,5 +1,7 @@
 # Paraphrase-Classification
 
+# Sentence-Similarity
+
 Used Siamese network for parphrase classification.[paper](http://www.mit.edu/~jonasm/info/MuellerThyagarajan_AAAI16.pdf)
 
 
